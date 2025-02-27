@@ -17,17 +17,24 @@ function PrintDeveloperbyMap() {
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
-  
+  arr.forEach((objects) => {
+    if (objects.profession === "developer") {
+      console.log(objects);
+    }
+  });
 }
 
 function addData() {
   //Write your code here, just console.log
+  arr.push({ id: 4, name: "tom", age: "21", profession: "developer" });
 }
 
 function removeAdmin() {
   //Write your code here, just console.log
+  arr = arr.filter((objects) => objects.profession!== "admin");
 }
 
 function concatenateArray() {
   //Write your code here, just console.log
+  
 }
