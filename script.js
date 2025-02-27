@@ -7,11 +7,17 @@ let arr = [
 ];
 
 function PrintDeveloperbyMap() {
-  //Write your code here , just console.log
+  //Write your code here , just console.log 
+  arr.map((objects) => {
+    if (objects.profession === "developer") {
+      console.log(objects);
+    }
+  });
 }
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
+  
 }
 
 function addData() {
